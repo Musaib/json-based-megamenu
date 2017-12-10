@@ -1,0 +1,53 @@
+[
+    {
+        "level": 1,
+        "name": "Menu level 1 A",
+        "url": "#",
+        "child": false
+    },
+    {
+        "level": 1,
+        "name": "Menu level 1 A",
+        "url": "#",
+        "child": [
+            {
+                "level": 2,
+                "name": "Menu level 2 A",
+                "url": "#",
+                "child": [
+                    {
+                        "level": 3,
+                        "name": "Menu level 3 A",
+                        "url": "#",
+                        "child": false
+                    },
+                    {
+                        "level": 3,
+                        "name": "Menu level 3 B",
+                        "url": "#",
+                        "child": false
+                    }
+                ]
+            },
+            {
+                "level": 2,
+                "name": "Menu level 2 B",
+                "url": "#",
+                "child": [
+                    {
+                        "level": 3,
+                        "name": "Menu level 3 C",
+                        "url": "#",
+                        "child": false
+                    },
+                    {
+                        "level": 3,
+                        "name": "Menu level 3 D",
+                        "url": "#",
+                        "child": false
+                    }
+                ]
+            }
+        ]
+    }
+]
