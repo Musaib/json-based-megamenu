@@ -1,372 +1,565 @@
 {
-    "items": [
-        {   "name": "Home", 
-            "url": "#" 
-        },
-        {   "name": "About Us", 
-            "url": "#",
-            "items": [
-                {   "name": "Respect For Life", 
-                    "url": "#" 
-                },
-                {   "name": "Chairperson's Message", 
-                    "url": "#" 
-                },
-                {   "name": "Our Pledge", 
-                    "url": "#" 
-                },
-                {   "name": "Our Values", 
-                    "url": "#" 
-                },
-                {   "name": "The Hospital", 
-                    "url": "#" 
-                },
-                {   "name": "Management Team", 
-                    "url": "#" 
-                }
-            ]  
-        },
-        {   "name": "Care Centres", 
-            "url": "#",
-            "items": [
-                {   "name": "Cardiac Sciences", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "Cardiology", 
-                            "url": "#" 
-                        },
-                        {   "name": "Cardiac Surgery", 
-                            "url": "#" 
-                        }
-                    ] 
-                },
-                {   "name": "Oncology Services", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "Medical Oncology", 
-                            "url": "#" 
-                        },
-                        {   "name": "Surgical Oncology", 
-                            "url": "#" 
-                        },
-                        {   "name": "Radiation Oncology", 
-                            "url": "#" 
-                        }
-                    ]  
-                },
-                {   "name": "Neuro Sciences", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "Neurology", 
-                            "url": "#" 
-                        },
-                        {   "name": "Neuro Sugery", 
-                            "url": "#" 
-                        },
-                        {   "name": "Neuro Spine Surgery", 
-                            "url": "#" 
-                        }
-                    ]   
-                },
-                {   "name": "Orthopaedics", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "Orthopaedics", 
-                            "url": "#" 
-                        },
-                        {   "name": "Orthopaedic Spine Surgery", 
-                            "url": "#" 
-                        }
-                    ]  
-                },
-                {   "name": "Uro-Genital Sciences", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "Urology", 
-                            "url": "#" 
-                        },
-                        {   "name": "Nephrology", 
-                            "url": "#" 
-                        }
-                    ]  
-                },
-                {   "name": "Obstetrics & Gynaecology", 
-                    "url": "#" 
-                },
-                {   "name": "Paediatrics", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "General Padiatrics", 
-                            "url": "#" 
-                        },
-                        {   "name": "Neonatology", 
-                            "url": "#" 
-                        },
-                        {   "name": "Paediatric Hemato-Oncology", 
-                            "url": "#" 
-                        },
-                        {   "name": "Paedriatruc Intensice Care Unit", 
-                            "url": "#" 
-                        },
-                        {   "name": "Paeduatric Nephrology", 
-                            "url": "#" 
-                        },
-                        {   "name": "Genetic Counselling", 
-                            "url": "#" 
-                        },
-                        {   "name": "Clinal Psychology", 
-                            "url": "#" 
-                        },
-                        {   "name": "Paediatric Psychology", 
-                            "url": "#" 
-                        }
-                    ] 
-                },
-                {   "name": "Paediatric Cardiac Sciences", 
-                    "url": "#" 
-                },
-                {   "name": "Medical Services", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "Internal Medicine", 
-                            "url": "#" 
-                        },
-                        {   "name": "Infectious Diseases", 
-                            "url": "#" 
-                        },
-                        {   "name": "Hematology", 
-                            "url": "#" 
-                        },
-                        {   "name": "Dermatology", 
-                            "url": "#" 
-                        },
-                        {   "name": "Geriatrics", 
-                            "url": "#" 
-                        },
-                        {   "name": "Psychiatry", 
-                            "url": "#" 
-                        },
-                        {   "name": "Genetic Counselling", 
-                            "url": "#" 
-                        },
-                        {   "name": "Clinal Psychology", 
-                            "url": "#" 
-                        }
-                    ] 
-                },
-                {   "name": "Pulmonary Medicine", 
-                    "url": "#" 
-                },
-                {   "name": "Gastroenterology", 
-                    "url": "#" 
-                },
-                {   "name": "Endocrinology", 
-                    "url": "#" 
-                },
-                {   "name": "Rheumatology", 
-                    "url": "#" 
-                },
-                {   "name": "Surgical Services", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "General and Minimal Access Surgery", 
-                            "url": "#" 
-                        },
-                        {   "name": "Thoracic Surgery", 
-                            "url": "#" 
-                        },
-                        {   "name": "Vascular Surgery", 
-                            "url": "#" 
-                        },
-                        {   "name": "Hepato-Pancreatico-Biliary(HPB) Surgery", 
-                            "url": "#" 
-                        },
-                        {   "name": "Gastrointestinal & Colorectal Surgery", 
-                            "url": "#" 
-                        },
-                        {   "name": "Bariatric Surgery", 
-                            "url": "#" 
-                        },
-                        {   "name": "Plastuc & Reconstructive Surgery", 
-                            "url": "#" 
-                        }
-                    ] 
-                },
-                {   "name": "Ophthalmology", 
-                    "url": "#" 
-                },
-                {   "name": "Ear Nose Throat", 
-                    "url": "#" 
-                },
-                {   "name": "Dental Services", 
-                    "url": "#" 
-                },
-                {   "name": "Critical Care Medicine", 
-                    "url": "#" 
-                },
-                {   "name": "Emergency Medical Services", 
-                    "url": "#" 
-                },
-                {   "name": "Rehabilitation and Sports Medicine", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "Centre for Rehabilitation Medicine", 
-                            "url": "#" 
-                        },
-                        {   "name": "Centre for Sports Medicine", 
-                            "url": "#" 
-                        },
-                        {   "name": "Yoga-Holistic Healing", 
-                            "url": "#" 
-                        }
-                    ]
-                },
-                {   "name": "Anaesthesia and Pain Management", 
-                    "url": "#" 
-                },
-                {   "name": "Nutrition & Dietetics", 
-                    "url": "#" 
-                },
-                {   "name": "Exclusive Health Check up", 
-                    "url": "#" 
-                },
-                {   "name": "Diagnostic Services", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "Radiology & Imaging", 
-                            "url": "#" 
-                        },
-                        {   "name": "Nucliear Medicine", 
-                            "url": "#" 
-                        },
-                        {   "name": "Laboratory Medicine", 
-                            "url": "#" 
-                        },
-                        {   "name": "Home Collection", 
-                            "url": "#" 
-                        }
-                    ]  
-                },
-                {   "name": "Blood Bank", 
-                    "url": "#" 
-                },
-                {   "name": "Speciallity Clinics", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "Prostate Cancer Clinic", 
-                            "url": "#" 
-                        }
-                    ]  
-                },
-                {   "name": "Support Groups", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "Stroke", 
-                            "url": "#" 
-                        },
-                        {   "name": "Kidney & Urlogy", 
-                            "url": "#" 
-                        }
-                    ] 
-                }
-            ]
-        },
-        {   "name": "Patients & Visitors Services", 
-            "url": "#",
-            "items": [
-                {   "name": "Outpatient Visits", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "Apppointment Scheduling", 
-                            "url": "#" 
-                        }, 
-                        {   "name": "Registration", 
-                            "url": "#" 
-                        }, 
-                        {   "name": "Billing and Payments", 
-                            "url": "#" 
-                        }, 
-                        {   "name": "OPD Servies", 
-                            "url": "#" 
-                        }, 
-                        {   "name": "Preparing for OPD", 
-                            "url": "#" 
-                        }
-                    ]  
-                }, 
-                {   "name": "Inpatient Stay", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "Admission Guidelines", 
-                            "url": "#" 
-                        }, 
-                        {   "name": "Billing", 
-                            "url": "#" 
-                        }, 
-                        {   "name": "Visitor's Information", 
-                            "url": "#" 
-                        }
-                    ] 
-                }, 
-                {   "name": "Day Care Services", 
-                    "url": "#" 
-                }, 
-                {   "name": "Facilities", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "Room Types", 
-                            "url": "#" 
-                        }, 
-                        {   "name": "Other Amenities", 
-                            "url": "#" 
-                        }
-                    ]
-                }, 
-                {   "name": "Tariff", 
-                    "url": "#",
-                    "items": [
-                        {   "name": "Room Tariff", 
-                            "url": "#" 
-                        }, 
-                        {   "name": "Diagnostic Charges", 
-                            "url": "#" 
-                        }, 
-                        {   "name": "Stent Charges", 
-                            "url": "#" 
-                        }, 
-                        {   "name": "Knee Implants - charges", 
-                            "url": "#" 
-                        }, 
-                        {   "name": "Online Payment", 
-                            "url": "#" 
-                        }
-                    ]
-                }, 
-                {   "name": "Patient's Rights & Responsibilities", 
-                    "url": "#" 
-                }, 
-                {   "name": "Empanelled Insurance Companies & TPAs", 
-                    "url": "#" 
-                }, 
-                {   "name": "Feedback", 
-                    "url": "#" 
-                }
-            ]
-        },
-        {
-            "name": "Healthcare Professionals", 
-            "url": "#",
-            "items": [
-                {   "name": "Department of Nursing", 
-                    "url": "#" 
-                }, 
-                {   "name": "Doctor's Directory", 
-                    "url": "#" 
-                }, 
-                {   "name": "Careers", 
-                    "url": "#" 
-                }
-            ]
-        }
-    ]
+	"items": [{
+			"name": "Home",
+			"url": "#",
+			"level": 1
+		},
+		{
+			"name": "About Us",
+			"url": "#",
+			"level": 1,
+			"items": [{
+					"name": "Respect For Life",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Chairperson's Message",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Our Pledge",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Our Values",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "The Hospital",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Management Team",
+					"url": "#",
+					"level": 2
+				}
+			]
+		},
+		{
+			"name": "Care Centres",
+			"url": "#",
+			"level": 1,
+			"items": [{
+					"name": "Cardiac Sciences",
+					"url": "#",
+					"level": 2,
+					"items": [{
+							"name": "Cardiology",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Cardiac Surgery",
+							"url": "#",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Oncology Services",
+					"url": "#",
+					"level": 2,
+					"items": [{
+							"name": "Medical Oncology",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Surgical Oncology",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Radiation Oncology",
+							"url": "#",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Neuro Sciences",
+					"url": "#",
+					"level": 2,
+					"items": [{
+							"name": "Neurology",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Neuro Sugery",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Neuro Spine Surgery",
+							"url": "#",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Orthopaedics",
+					"url": "#",
+					"level": 2,
+					"items": [{
+							"name": "Orthopaedics",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Orthopaedic Spine Surgery",
+							"url": "#",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Uro-Genital Sciences",
+					"url": "#",
+					"level": 2,
+					"items": [{
+							"name": "Urology",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Nephrology",
+							"url": "#",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Obstetrics & Gynaecology",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Paediatrics",
+					"url": "#",
+					"level": 2,
+					"items": [{
+							"name": "General Padiatrics",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Neonatology",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Paediatric Hemato-Oncology",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Paedriatruc Intensice Care Unit",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Paeduatric Nephrology",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Genetic Counselling",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Clinal Psychology",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Paediatric Psychology",
+							"url": "#",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Paediatric Cardiac Sciences",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Medical Services",
+					"url": "#",
+					"level": 2,
+					"items": [{
+							"name": "Internal Medicine",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Infectious Diseases",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Hematology",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Dermatology",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Geriatrics",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Psychiatry",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Genetic Counselling",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Clinal Psychology",
+							"url": "#",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Pulmonary Medicine",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Gastroenterology",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Endocrinology",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Rheumatology",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Surgical Services",
+					"url": "#",
+					"level": 2,
+					"items": [{
+							"name": "General and Minimal Access Surgery",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Thoracic Surgery",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Vascular Surgery",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Hepato-Pancreatico-Biliary(HPB) Surgery",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Gastrointestinal & Colorectal Surgery",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Bariatric Surgery",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Plastuc & Reconstructive Surgery",
+							"url": "#",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Ophthalmology",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Ear Nose Throat",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Dental Services",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Critical Care Medicine",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Emergency Medical Services",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Rehabilitation and Sports Medicine",
+					"url": "#",
+					"level": 2,
+					"items": [{
+							"name": "Centre for Rehabilitation Medicine",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Centre for Sports Medicine",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Yoga-Holistic Healing",
+							"url": "#",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Anaesthesia and Pain Management",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Nutrition & Dietetics",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Exclusive Health Check up",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Diagnostic Services",
+					"url": "#",
+					"items": [{
+							"name": "Radiology & Imaging",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Nucliear Medicine",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Laboratory Medicine",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Home Collection",
+							"url": "#",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Blood Bank",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Speciallity Clinics",
+					"url": "#",
+					"level": 2,
+					"items": [{
+						"name": "Prostate Cancer Clinic",
+						"url": "#",
+						"level": 3
+					}]
+				},
+				{
+					"name": "Support Groups",
+					"url": "#",
+					"level": 2,
+					"items": [{
+							"name": "Stroke",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Kidney & Urlogy",
+							"url": "#",
+							"level": 3
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Patients & Visitors Services",
+			"url": "#",
+			"level": 1,
+			"items": [{
+					"name": "Outpatient Visits",
+					"url": "#",
+					"level": 2,
+					"items": [{
+							"name": "Apppointment Scheduling",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Registration",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Billing and Payments",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "OPD Servies",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Preparing for OPD",
+							"url": "#",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Inpatient Stay",
+					"url": "#",
+					"level": 2,
+					"items": [{
+							"name": "Admission Guidelines",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Billing",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Visitor's Information",
+							"url": "#",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Day Care Services",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Facilities",
+					"url": "#",
+					"items": [{
+							"name": "Room Types",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Other Amenities",
+							"url": "#",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Tariff",
+					"url": "#",
+					"level": 2,
+					"items": [{
+							"name": "Room Tariff",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Diagnostic Charges",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Stent Charges",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Knee Implants - charges",
+							"url": "#",
+							"level": 3
+						},
+						{
+							"name": "Online Payment",
+							"url": "#",
+							"level": 3
+						}
+					]
+				},
+				{
+					"name": "Patient's Rights & Responsibilities",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Empanelled Insurance Companies & TPAs",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Feedback",
+					"url": "#",
+					"level": 2
+				}
+			]
+		},
+		{
+			"name": "Healthcare Professionals",
+			"url": "#",
+			"level": 1,
+			"items": [{
+					"name": "Department of Nursing",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Doctor's Directory",
+					"url": "#",
+					"level": 2
+				},
+				{
+					"name": "Careers",
+					"url": "#",
+					"level": 2
+				}
+			]
+		}
+	]
 }
