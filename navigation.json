@@ -1,53 +1,25 @@
-[
-    {
-        "level": 1,
-        "name": "Menu level 1 A",
-        "url": "#",
-        "child": false
-    },
-    {
-        "level": 1,
-        "name": "Menu level 1 A",
-        "url": "#",
-        "child": [
-            {
-                "level": 2,
-                "name": "Menu level 2 A",
-                "url": "#",
-                "child": [
-                    {
-                        "level": 3,
-                        "name": "Menu level 3 A",
-                        "url": "#",
-                        "child": false
-                    },
-                    {
-                        "level": 3,
-                        "name": "Menu level 3 B",
-                        "url": "#",
-                        "child": false
-                    }
-                ]
-            },
-            {
-                "level": 2,
-                "name": "Menu level 2 B",
-                "url": "#",
-                "child": [
-                    {
-                        "level": 3,
-                        "name": "Menu level 3 C",
-                        "url": "#",
-                        "child": false
-                    },
-                    {
-                        "level": 3,
-                        "name": "Menu level 3 D",
-                        "url": "#",
-                        "child": false
-                    }
-                ]
-            }
-        ]
-    }
-]
+{
+    "items": [
+        { "name": "foo1" },
+        { "name": "foo2" },
+        { "name": "foo3", "items": [
+            { "name": "foo4" },
+            { "name": "foo5" },
+            { "name": "foo6", "items": [
+                { "name": "foo7" }, 
+                { "name": "foo8", "items": [
+                    { "name": "foo9" },
+                    { "name": "foo10" },
+                    { "name": "foo11" },
+                    { "name": "foo12", "items": [
+                        { "name": "foo13" }, 
+                        { "name": "foo14", "items": [
+                            { "name": "foo15" }
+                        ]}
+                    ]}     
+                ]}    
+            ]}
+        ]},
+        { "name": "foo8" }
+    ]
+}
