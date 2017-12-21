@@ -16,6 +16,7 @@
             <nav class="pull-right" id="nav"></nav>
         </div>
     </header>
+    <!-- Outer -->
     <script id="list" type="x-handlebars-template">
         {{#each items}}
             <li class=level-{{level}}>
@@ -26,6 +27,7 @@
             </li>
         {{/each}}
     </script>
+    <!-- Inner -->
     <script id="header" type="x-handlebars-template">
         <ul>
             {{> list }}
@@ -35,5 +37,23 @@
     <script src="js/handlebars-v4.0.11.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/header.js"></script>
+
+    <!-- Handlebars -->
+    <script>
+        var api = 'https://raw.githubusercontent.com/Musaib/responsigation/master/navigation.json';
+        $.getJSON(api, getData);
+        function getData(data){
+            var nav = $("#nav");
+            var header = $( "#header" ).html();
+            var list = $( "#list" ).html();
+            
+            var main = Handlebars.compile(header);
+            Handlebars.registerPartial("list", list);
+            nav.html(main({ 
+                items: data.items 
+            }));
+        }
+    </script>
+
 </body>
 </html>
