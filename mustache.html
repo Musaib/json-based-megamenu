@@ -19,9 +19,9 @@
     </header>
     
     <!-- Outer -->
-    <script type="text/template" id="outerTemplate" >
+    <script type="text/template" id="outerTemplate"> 
         <ul>
-            {{#items}}
+             {{#items}}
                 <li class=level-{{level}}>
                     <a href={{url}}>{{name}}</a>
                     {{>innerTemplate}}
@@ -32,26 +32,32 @@
     <!-- Inner -->
     <script type="text/template" id="innerTemplate">
         <ul>
-            {{#items}}
+            {{#items}} 
                 <li class=level-{{level}}>
-                    <a href={{url}}>{{name}}</a>
-                    {{>innerTemplate}}
+                    <a href={{url}}>{{name}}</a> 
+                    {{>innerTemplate}} 
                 </li>
             {{/items}}
+
+            {{#megamenu}}
+            <p>megamenu is on</p>
+            {{/megamenu}}  
         </ul>
     </script>
 
     <script src="js/jQuery-2.1.4.min.js"></script>
     <script src="js/mustache.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/drystone.js"></script>
     <script src="js/header.js"></script>
 
     <script>
         
         var api = 'https://raw.githubusercontent.com/Musaib/responsigation/master/navigation.json';
-        $.getJSON(api, getData); 
+        $.getJSON(api, getData);
         
-        function getData(data){
+        function getData(data){ 
+
             var nav = $('#nav');
             var outerTemplate = $("#outerTemplate").html();
             var innerTemplate = $("#innerTemplate").html();
@@ -59,10 +65,62 @@
             var rendered = Mustache.render(outerTemplate, data, {
                 "innerTemplate": innerTemplate
             });
+
             nav.html(rendered);
+
+            setTimeout(function(){
+
+                $('#nav > ul > :nth-child(3) > ul').drystone({
+                    xl: 4,
+                    gutter: 0,
+                    item: '#nav > ul > :nth-child(3) > ul > li',
+                    onComplete: function() {
+                        $('#nav > ul > :nth-child(3) > ul').css({
+                            'position': 'absolute',
+                            'background-color': '#cfd8dc',
+                            'min-height': '500px',
+                            'height': '500px',
+                            'visibility': 'visibile',
+                            'display': 'none',
+                        });
+                    }
+                });
+
+            }, 100); 
+
+            $('#nav > ul > :nth-child(3)').hover( 
+                function(){
+                    $('#nav > ul > :nth-child(3) > ul').show();
+                    $('#nav > ul > :nth-child(3) > ul').css({ 
+                        'visibility': 'visibile', 
+                        'z-index': '1', 
+                        'opacity': '1'
+                    });
+                },
+                function(){
+                    $('#nav > ul > :nth-child(3) > ul').hide();
+                }
+            );
+
         }
 
     </script>
+
+
+    <!-- (check => level3 childs){
+
+        1. get total count of level3 childs
+        2. create 4 containers with 25% width of parent and loop the total no. of childs inside 4 of it 1 by 1
+        3. 
+
+
+        (goto => its parent level)
+    } -->
+
+    <script>
+        
+    </script>
+
 
 </body>
 </html>
